@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(230, 235, 237);
+  color: black;
+  margin: 5px;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: navy;
+  padding-left: 1.25rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: navy;
+  padding-left: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+  color: navy;
+}
+/* I chose this color for my p because t is a basic color and easy to read.*/
+
+.headhighlight {
+  color: white;
+  font-weight: bold;
+  background-color: black;
+}
+
+.subheadhighlight{
+  color: black;
+  font-weight: bold;
+  background-color:white;
+}
+
+#list-highlight{
+  font-size: 1rem;
+  color: darkred;
+  font-weight: bold;
+  border: 10px solid #fff;
+  padding: 2px; 
+  margin: 2px;
+  width:auto;
+}
+
+.footer{
+  color:navy;
+  font-weight: bold;
+}
+
+a {
+  color: blueviolet;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+}
+
+a:hover {
+  color:magenta;
+  border-bottom-color: red;
+  text-decoration: underline;
+}
+
+.websites a{
+  color:navy;
+  font-weight:bold;
+  width: 50%;
+  padding: 2px;
+  border: 4px dotted #fff;
+  margin: auto;
+  background-color: #ADD8E6; 
+}
+
+* {
+    box-sizing: border-box;
+}
